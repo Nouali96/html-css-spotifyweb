@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a81bc3b24f.js" crossorigin="anonymous"></script>
+    <title>Spotify</title>
+</head>
+<body>
+
+    <!-- inizio barra di comandi -->
+    <header class="flex">
+        <div class="flex nav-left">
+            
+            <div class="flex flex-center img">
+                <div class="flex flex-column flex-center img">
+                    <img src="img/sinister.jpeg" alt="">
+                </div>
+                
+                <div class="flex flex-column brano">
+                <p>Sinister</p>
+                <p>Brano Nome</p>
+                </div>    
+            </div>
+            
+            <div class="flex flex-column flex-center">
+                <i class="far fa-heart"></i>
+            </div>
+
+            <div class="flex">
+                <i class="far fa-folder"></i>
+            </div> 
+
+        </div>
+
+        <div class="flex nav-main">
+            <div class="flex flex-center play">
+                <div class="flex flex-column flex-center ">
+                    <i class="fas fa-random"></i>
+                </div>
+                <div class="flex flex-column flex-center ">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="flex flex-column flex-center ">
+                    <i class="far fa-play-circle"></i>
+                </div>
+                <div class="flex flex-column flex-center ">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="flex flex-column flex-center ">
+                    <i class="fas fa-redo"></i>
+                </div>
+            </div>
+            <div class="flex flex-center conteiner-progress-time">
+                <span class="controls__current-time">1:15</span>
+                <input type="range" id="progress-time" name="progress-time" min="0" max="10">
+                <span class="controls__total-time">3:00</span>
+            </div>
+        </div>
+
+        <div class="flex  nav-right">
+            <i class="fas fa-list-ul"></i>
+            <i class="fas fa-desktop"></i>
+            <i class="fas fa-volume-up"></i>
+            <input type="range" id="volume" name="volume" min="0" max="10">
+        </div>
+    </header>
+    <!-- Fine barra di comandi -->
+
+    <main class="flex">
+
+        <div class=" main-left">
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo">
+            </div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <p>Home</p>
+                    </li>
+                    <li>
+                        <p>Cerca</p>
+                    </li>
+                    <li>
+                        <p>La tua libreria</p>
+                    </li>
+                </ul>
+                <ul class="playlist">
+                    <li>
+                        <h3>PLAYLIST</h3>
+                    </li>
+                    <li>
+                        <p>Crea Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                    <li>
+                        <p>Nome Playlist</p>
+                    </li>
+                </ul>
+            </div>
+
+            <footer>
+                <a href="#">Installa app</a>
+                <hr>
+                <div>
+                    <p>John Doe</p>    
+                </div>
+                
+            </footer>
+        </div>
+
+        <div class="flex main-right">
+            <div class="flex container-upgrade">
+                <div>
+                    <button>EFFETTUA L'UPGRADE</button>
+                </div>
+            </div>
+            <div class="container-main">
+                <div class="flex guida">
+                    <ul class="flex">
+                        <li>IN EVIDENZIA</li>
+                        <li>PODCAST</li>
+                        <li>CLASSIFICHE</li>
+                        <li>GENERI E MOOD</li>
+                        <li>NUOVE USCITE</li>
+                        <li>SCOPRI</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h1>Recently played</h1>
+                    <div class="flex">
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img src="img/metal_lifting.jpg" alt="img-metal">
+                            </div>
+                            <h3>Heavy Metal</h3>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img src="img/metal_lifting.jpg" alt="img-metal">
+                            </div>
+                            <h3>Heavy Metal</h3>
+                            <p>Subtitle</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+</body>
+</html>
