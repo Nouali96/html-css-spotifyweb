@@ -53,7 +53,7 @@
                     <i class="fas fa-redo"></i>
                 </div>
             </div>
-            <div class="flex flex-center conteiner-progress-time">
+            <div class="flex flex-center container-progress-time">
                 <span class="controls__current-time">1:15</span>
                 <input type="range" id="progress-time" name="progress-time" min="0" max="10">
                 <span class="controls__total-time">3:00</span>
@@ -78,13 +78,16 @@
             <div class="nav">
                 <ul class="nav-list">
                     <li>
-                        <p>Home</p>
+                        <img class="logo-nav-list" src="img/home.svg" alt="home">
+                        <span class="white">Home</span>      
                     </li>
                     <li>
-                        <p>Cerca</p>
+                        <img class="logo-nav-list" src="img/search.svg" alt="search">
+                        <span class="white">Cerca</span>
                     </li>
                     <li>
-                        <p>La tua libreria</p>
+                        <img class="logo-nav-list" src="img/libreria.svg" alt="home">
+                        <span class="white">La tua libreria</span>
                     </li>
                 </ul>
                 <ul class="playlist">
@@ -92,6 +95,9 @@
                         <h3>PLAYLIST</h3>
                     </li>
                     <li>
+                        <div class="flex flex-column flex-center plus">
+                            <img src="img/172525_plus_icon.svg" alt="plus icon">
+                        </div>
                         <p>Crea Playlist</p>
                     </li>
                     <li>
@@ -128,10 +134,16 @@
             </div>
 
             <footer>
-                <a href="#">Installa app</a>
-                <hr>
                 <div>
-                    <p>John Doe</p>    
+                    <img src="img/download.svg" alt="download">
+                    <a href="#">Installa app</a>
+                </div>
+                <hr>
+                <div class="container-profile">
+                    <div class="profile">
+                        <img src="img/profile.svg" alt="profile">
+                    </div>
+                    <span>John Doe</span>    
                 </div>
                 
             </footer>
@@ -156,7 +168,7 @@
                 </div>
                 <div class="container">
                     <h1>Recently played</h1>
-                    <div class="flex">
+                    <div class="flex container-boxes">
                         <div class="flex box 20% flex-column flex-center">
                             <div class="img">
                                 <img src="img/metal_lifting.jpg" alt="img-metal">
@@ -167,12 +179,82 @@
 
                         <div class="flex box 20% flex-column flex-center">
                             <div class="img">
-                                <img src="img/metal_lifting.jpg" alt="img-metal">
+                                <img src="img/stranger.jpeg" alt="img-stranger">
                             </div>
-                            <h3>Heavy Metal</h3>
+                            <h3>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
+                            <p>Kyle Dixon & Michael</p>
+                        </div>
+
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img src="img/aquietplace.jpeg" alt="img-aquietplace">
+                            </div>
+                            <h3>A qulet place</h3>
                             <p>Subtitle</p>
                         </div>
+
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img src="img/split.jpeg" alt="img-split">
+                            </div>
+                            <h3>Split</h3>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img src="img/cure.jpeg" alt="img-cure">
+                            </div>
+                            <h3>A cure for wellness</h3>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img src="img/sinister.jpeg" alt="img-sinister">
+                            </div>
+                            <h3>Sinister</h3>
+                            <p>Subtitle</p>
+                        </div>
+       
                     </div>
+
+                    <h1>Creato per John Doe</h1>
+                    <span>Più ascolti, più accurati saranno i suggerimenti.</span>
+                    <div class="flex container-boxes">
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img src="img/radar.jpeg" alt="img-radar">
+                            </div>
+                            <h3>Release Radar</h3>
+                        </div>
+
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img src="img/mixdaily.jpeg" alt="img-mix">
+                            </div>
+                            <h3>Daily Mix 1</h3>
+                        </div>
+                    </div>
+
+                    <h1>Artisti più popolari</h1>
+                    <span>Più ascolti, più accurati saranno i suggerimenti.</span>
+                    <div class="flex container-boxes">
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img class="circle" src="img/youg.jpeg" alt="img-yougr">
+                            </div>
+                            <h3>Lana del Rey</h3>
+                        </div>
+
+                        <div class="flex box 20% flex-column flex-center">
+                            <div class="img">
+                                <img class="circle" src="img/einaudi.jpeg" alt="img-einaudi">
+                            </div>
+                            <h3>Ludovico Elnaudi</h3>
+                        </div>
+                    </div>
+                    
 
                     
                 </div>
